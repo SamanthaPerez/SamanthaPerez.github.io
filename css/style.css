@@ -43,15 +43,15 @@ article h1 {
 }
 
 article h2 {
-    font-size: 20px;
-    font-family: 'Gisha';
+    font-size: 45px;
+    font-family: 'Gisha', sans-serif;
     text-align: center;
 }
 
 article h3 {
     font-size: 20px;
     font-family: 'Gisha';
-    text-align: right;
+    text-align: center;
 }
 
 footer {
