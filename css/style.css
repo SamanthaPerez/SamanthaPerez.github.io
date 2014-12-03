@@ -9,7 +9,7 @@ body {
 }
 
 img {
-    width: 100% ;
+    max-width: none;
 }
 
 header h1 {
@@ -38,28 +38,38 @@ nav a:hover {
 article h1 {
     margin-bottom: 8px;
     font-family: 'Gisha', sans-serif;
-    font-size: 50px
+    font-size: 50px;
+    text-align: center
 }
 
 article h2 {
-    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: 'Gisha';
+    text-align: center;
 }
 
+article h3 {
+    font-size: 20px;
+    font-family: 'Gisha';
+    text-align: right;
+}
 
 footer {
     text-align: center;
     background-color: #2E9AFE;
     clear: both;
     color: #ffffff;
+    font-size: 20px;
+    font-family: 'Gisha';
 }
 
 footer ul {
     list-style-type: none;
 }
 
-footer li {
+footer a {
     color: #FFFFFF; 
-    font-size: 20px;
+    font-size: 30px;
     font: "Gisha" ;
     text-align: center;
 }
