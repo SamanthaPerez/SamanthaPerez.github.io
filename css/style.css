@@ -10,6 +10,9 @@ body {
 
 img {
     max-width: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header h1 {
@@ -17,6 +20,8 @@ header h1 {
     font-size: 94px;
     text-align: center;
     margin-bottom: 10px;
+    border-bottom: 8px solid #2E9AFE;
+    border-top: 8px solid #2E9AFE;
 }
 nav {
     text-align: center;
@@ -33,25 +38,46 @@ nav a {
 }
 nav a:hover {
     border-bottom: 8px dotted #2E9AFE;
+    border-top: 8px dotted #2E9AFE;
+    border-left: 8px dotted #2E9AFE;
+    border-right: 8px dotted #2E9AFE;
 }
 
 article h1 {
     margin-bottom: 8px;
     font-family: 'Gisha', sans-serif;
     font-size: 50px;
-    text-align: center
+    text-align: center;
+
 }
 
 article h2 {
     font-size: 45px;
     font-family: 'Gisha', sans-serif;
     text-align: center;
+    border-bottom: 8px solid #2E9AFE;
+    border-top: 8px solid #2E9AFE;
 }
 
 article h3 {
     font-size: 20px;
     font-family: 'Gisha';
-    text-align: center;
+    text-align: inherit;
+    padding-top: 20px;
+}
+
+article h4 {
+    font-size: 20px;
+    font-family: 'Gisha';
+    text-align: inherit;
+    padding-top: 20px;
+}
+
+article h5 {
+    font-size: 20px;
+    font-family: 'Gisha';
+    text-align: inherit;
+    padding-top: 20px;
 }
 
 footer {
@@ -61,10 +87,6 @@ footer {
     color: #ffffff;
     font-size: 20px;
     font-family: 'Gisha';
-}
-
-footer ul {
-    list-style-type: none;
 }
 
 footer a {
